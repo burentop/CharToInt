@@ -11,6 +11,6 @@
 int main()
 {
     for (int i = 0; i < 26; ++i) {
-        cout << char('a' + i) << "\t" << int('a' + i) << "\n";
+        cout << char('a' + i) << "\t" << char('a' + (i - 32)) << "\t" << int('a' + i) << "\n";
     }
 }
