@@ -10,10 +10,7 @@
 
 int main()
 {
-    int i = 0;
-    
-    while (i < 26) {
+    for (int i = 0; i < 26; ++i) {
         cout << char('a' + i) << "\t" << int('a' + i) << "\n";
-        ++i;
     }
 }
